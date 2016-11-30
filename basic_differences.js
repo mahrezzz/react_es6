@@ -82,5 +82,44 @@ for (let i of range(0, 10, 2)) {
   console.log(i);
 }
 
+//Contants variables  (immutable )...
+const PI=3.1415
+
+//----------------------------------------------------------------------
+//4- Arraw Functions...
+let hallOfFames=['magic','jordan','oscar','micheal','hakemm','jerry','robinson','barkley'];
+console.log(hallOfFames);
+hallOfFames.forEach(name=>{
+	console.log(name);
+	if(name.startsWith('m')){
+		if(hallOfFames.indexOf(name)!=-1){
+			hallOfFames.splice(hallOfFames.indexOf(name),1);	
+		}
+	}
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
