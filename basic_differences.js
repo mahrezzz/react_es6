@@ -4,7 +4,7 @@ let sum=(a,b)=>a+b;
 let extract=(a,b)=>a-b;
 let square=x=>x*x;
 let test=()=>5;
-
+let test2;
 
 console.log(square(5)); // 25
 console.log(sum(3, 4)); // 7
